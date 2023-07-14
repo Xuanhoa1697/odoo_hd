@@ -1,0 +1,22 @@
+@media (min-width: 992px) {
+    .mk_sidebar_type_large .mk_apps_sidebar_panel {
+        width: 50px !important;
+        transition: all 0.2s ease-in-out 0s;
+        z-index: 9999;
+    }
+
+    .mk_sidebar_type_large .mk_apps_sidebar_panel:hover {
+        width: 250px !important;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .mk_sidebar_type_large .o_navbar+.o_action_manager {
+        padding-left: 50px;
+    }
+
+    .mk_apps_sidebar_panel .mk_apps_sidebar .mk_apps_sidebar_menu>li>a .mk_apps_sidebar_icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+}

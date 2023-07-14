@@ -84,6 +84,7 @@
             'muk_web_theme/static/src/webclient/**/*.xml',
             'muk_web_theme/static/src/webclient/**/*.scss',
             'muk_web_theme/static/src/webclient/**/*.js',
+            'muk_web_theme/static/src/webclient/**/*.css',
             'muk_web_theme/static/src/views/**/*.scss',
         ],
     },
