@@ -62,7 +62,7 @@
     ],
     'data': [
         'templates/webclient.xml',
-        'views/res_config_settings.xml',
+        # 'views/res_config_settings.xml',
         'views/res_users.xml',
     ],
     'assets': {
@@ -94,6 +94,6 @@
     ],
     'installable': True,
     'application': True,
-    'auto_install': False,
+    'auto_install': True,
     'uninstall_hook': '_uninstall_cleanup',
 }
